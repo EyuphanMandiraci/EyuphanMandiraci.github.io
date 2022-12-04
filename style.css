@@ -47,7 +47,7 @@ img {
 
 .main {
   display: grid;
-
+  padding: 1em;
 }
 
 .profile-card {
@@ -64,16 +64,6 @@ img {
 
 .profile-card__person-info {
   border-bottom: 1px solid #e8e8e8;
-}
-.profile-card__img-box-avatar {
-  transform: translateY(-50%);
-  margin-inline: auto;
-  overflow: hidden;
-  width: 100%;
-  aspect-ratio: 1;
-  max-width: 5.33em;
-  border: 5px solid white;
-  border-radius: 50vw;
 }
 .profile-card__title {
   color: #6a6f81;
