@@ -121,11 +121,11 @@ img {
 }
 .profile-info__value {
   font-weight: 700;
-  font-size: 1em;
+  font-size: 4em;
 }
 .profile-info__title {
   color: #6a6f81;
-  font-size: 0.6em;
+  font-size: 3em;
 }
 
 .attribution {
