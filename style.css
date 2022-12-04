@@ -47,6 +47,7 @@ img {
 
 .main {
   display: grid;
+  place-items: center;
   padding: 1em;
 }
 
@@ -61,9 +62,24 @@ img {
   box-shadow: 0 0.7em 0.7em rgba(0, 0, 0, 0.15);
   max-width: 18.2em;
 }
-
+.profile-card__img-box-pattern {
+  width: 100%;
+}
+.profile-card__img-box-pattern > img {
+  height: 7.78em;
+}
 .profile-card__person-info {
   border-bottom: 1px solid #e8e8e8;
+}
+.profile-card__img-box-avatar {
+  transform: translateY(-50%);
+  margin-inline: auto;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 5.33em;
+  border: 5px solid white;
+  border-radius: 50vw;
 }
 .profile-card__title {
   color: #6a6f81;
