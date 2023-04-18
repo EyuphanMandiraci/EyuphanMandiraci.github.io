@@ -32,10 +32,10 @@
     </div>
     <div class="profile-card">
       <div class="profile-card__person-info">
-       <br> <p class="profile-card__title"><strong class="profile-card__name"></strong><span class="profile-card__age"></span></p>
+       <br> <p class="profile-card__title"><strong class="profile-card__name">Hesap</strong><span class="profile-card__age">3</span></p>
       </div>
       <div class="profile-stats">
-        <p class="profile-info"><span class="profile-info__value" id="hesap2"></span><span class="profile-info__title"></span></p>
+        <p class="profile-info"><span class="profile-info__value" id="hesap3">xxxxxzzz</span><span class="profile-info__title"></span></p>
       </div>
     </div>
     <div class="profile-card">
@@ -70,6 +70,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 $("#hesap1").text(urlParams.get("hesap1"));
 $("#hesap2").text(urlParams.get("hesap2"));
+$("#hesap3").text(urlParams.get("hesap3"));
 
 
 
