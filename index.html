@@ -19,7 +19,7 @@
         <br><p class="profile-card__title"><strong class="profile-card__name">Hesap</strong><span class="profile-card__age">1</span></p>
       </div>
       <div class="profile-stats">
-        <p class="profile-info"><span class="profile-info__value" id="hesap1">30.254</span><span class="profile-info__title">₺</span></p>
+        <p class="profile-info"><span class="profile-info__value" id="hesap1"></span><span class="profile-info__title">₺</span></p>
       </div>
     </div>
     <div class="profile-card">
@@ -27,7 +27,7 @@
        <br> <p class="profile-card__title"><strong class="profile-card__name">Hesap</strong><span class="profile-card__age">2</span></p>
       </div>
       <div class="profile-stats">
-        <p class="profile-info"><span class="profile-info__value" id="hesap2">16.528</span><span class="profile-info__title">₺</span></p>
+        <p class="profile-info"><span class="profile-info__value" id="hesap2"></span><span class="profile-info__title">₺</span></p>
       </div>
     </div>
     <div class="profile-card">
@@ -35,7 +35,7 @@
        <br> <p class="profile-card__title"><strong class="profile-card__name">Hesap</strong><span class="profile-card__age">1</span></p>
       </div>
       <div class="profile-stats">
-        <p class="profile-info"><span class="profile-info__value" id="hesap3">31.782</span><span class="profile-info__title">₺</span></p>
+        <p class="profile-info"><span class="profile-info__value" id="hesap3"></span><span class="profile-info__title">₺</span></p>
       </div>
     </div>
     <div class="profile-card">
@@ -68,8 +68,8 @@
   <script>
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-//$("#hesap1").text(urlParams.get("hesap1"));
-//$("#hesap2").text(urlParams.get("hesap2"));
+$("#hesap1").text(urlParams.get("hesap1"));
+$("#hesap2").text(urlParams.get("hesap2"));
 //$("#hesap3").text(urlParams.get("hesap3"));
 
 
